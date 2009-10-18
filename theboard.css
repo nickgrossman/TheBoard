@@ -1,0 +1,193 @@
+body {
+  padding-bottom: 10px;
+}
+#intro {
+float: left;
+width: 600px;
+}
+#datepicker {
+float: left;
+padding: 1em;
+}
+#datepicker form {
+display: inline;
+}
+td, th {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: left;
+}
+td.hover {
+  background: #ffffcc;
+}
+td.project-name {
+  text-align: right;
+  font-weight: bold;
+  padding-left: 35px;
+}
+td.project-name.draggable {
+  background-image: url('img/icon_drag.png');
+  background-position: 10px 50%;
+  background-repeat: no-repeat;
+}
+.project-link {
+  padding-left: 5px;
+}
+thead th.currentweek {
+ border-top: 2px solid orange;
+ border-left: 2px solid orange;
+ border-right: 2px solid orange;
+}
+tbody td.currentweek {
+ border-left: 2px solid orange;
+ border-right: 2px solid orange;
+}
+tfoot th.currentweek {
+ border-bottom: 2px solid orange;
+ border-left: 2px solid orange;
+ border-right: 2px solid orange;
+}
+tr.tDnD_whileDrag td {
+  background: #afffb0;
+}
+.batch-dialog {
+  background: black;
+}
+.batch-dialog a {
+  color: #fff;
+}
+.person {
+  margin: 2px;
+  background: green;
+  color: #fff;
+  cursor: pointer;
+  width: 40px;
+}
+table .person {
+  width: 25px;
+  height: 18px;
+  float: left;
+  font-size: .8em;
+  text-align: center;
+  padding-top: 7px;
+}
+.trash {
+  width: 100%;
+  height: 40px;
+  background: #eee;
+  border: 1px solid #ddd;
+  clear: both;
+}
+.target {
+  background: #ffd2da;
+}
+.hover {
+  background: #ffffcc;
+}
+.people {
+  padding: 0;
+  clear: both;
+}
+.people li {
+  display: block;
+  float: left;
+  width: 50px;
+  padding: 3px 0;
+  list-style: none;
+  text-align: center;
+}
+table {
+  clear: both;
+  padding-top: 15px;
+}
+.person-dev {
+
+}
+.person-dzn {
+  background: #860448;
+}
+.person-dev {
+  background: #666;
+}
+.person-dzn.lowlighted,
+.lowlighted .person-dzn,
+td.past .person-dzn {
+  background: #cfc5cb;
+}
+.person-dev.lowlighted,
+.lowlighted .person-dev,
+td.past .person-dev {
+  background: #ddd;
+}
+ /* .person-1 {
+background: #448C38  }
+.person-2 {
+background: #223E9C  }
+.person-3 {
+background: #ECA017  }
+.person-4 {
+background: #745FF8  }
+.person-5 {
+background: #7E4576  }
+.person-6 {
+background: #C4666A  }
+.person-7 {
+background: #EDA8EA  }
+.person-8 {
+background: #8C689F  }
+.person-9 {
+background: #A96579  }
+.person-10 {
+background: #049130  }
+.person-11 {
+background: #E07C16  }
+.person-12 {
+background: #EC865D  }
+.person-13 {
+background: #FC87ED  }
+.person-14 {
+background: #16D6B0  }
+.person-15 {
+background: #298CFA  }
+.person-16 {
+background: #D60671  }
+.person-17 {
+background: #D0F373  }*/
+
+.edit-widget {
+  padding-top: 15px; 
+  padding-right: 25px; 
+  margin-left: 25px;
+  border-right: 1px solid #ccc;
+  float: left;
+}
+.edit-widget h3 {
+  margin: 0 0 .5em;
+}
+.flash-message {
+  background: #ffffcc;
+  padding: 3px 0;
+}
+
+.added {
+  background: url('img/add.png') left top no-repeat;
+  padding: 0 0 3px 20px;
+}
+.removed {
+  background: url('img/delete.png') left top no-repeat;
+  padding: 0 0 3px 20px;
+  color: #999;
+}
+
+.meta {
+  color: #999;
+}
+
+hr {
+  clear: both;
+  visibility: hidden;
+}
+
+#admin {
+  /*display: none;*/
+}
