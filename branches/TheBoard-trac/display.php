@@ -4,7 +4,7 @@ require_once('display.inc.php');
 ?>
 
 <div id="intro">
-  <p><b>Welcome to The Board</b>: project staffing @ TOPP Labs. See <a href="https://thenest.topplabs.org">The Nest</a> for all projects.</p>
+  <p><b>Welcome to The Board</b>: project staffing @ CivicWorks. See <a href="https://thenest.openplans.org">The Nest</a> for all projects.</p>
   <p>Drag a tile onto the board to <b>add it</b>. Drag a tile to the edge of the board to <b>delete it</b>.
 </div>
 

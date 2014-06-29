@@ -2,7 +2,7 @@
 
 /* Get Projects */
 //$projects = get_projects('unparked'); 
-$active_projects = get_live_tickets('status!=closed&type=In Development&type=Live or Ongoing&group=component&groupdesc=1');
+$active_projects = get_live_tickets('status!=closed&type=In Development&type=Live or Ongoing&type=Pending&group=component');
 
 //$bizdev_projects = get_live_tickets('status!=closed&type=Active Biz Dev&group=component&groupdesc=1');
 

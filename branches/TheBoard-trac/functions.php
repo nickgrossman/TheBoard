@@ -472,7 +472,7 @@ function display_projects_table($projects) {
       <td class="project-name">
         <?php //echo $project['project_name']; ?>
         <?php //the_project_link($project); ?>
-        <a class="<?php echo $project['priority']?>" href="http://thenest.topplabs.org/ticket/<?php echo $project['project_id']?>"><?php echo $project['project_name']?></a>
+        <a class="<?php echo $project['priority']?>" href="https://thenest.openplans.org/ticket/<?php echo $project['project_id']?>"><?php echo $project['project_name']?></a>
       </td>
       <?php foreach ($mondays as $key => $monday) : ?>
         <td class="project-<?php echo $project['project_id']?> <?php echo week_class($monday) ?>" id="cell-<?php echo $project['project_id']?>-<?php echo $monday?>" tb:project_id="<?php echo $project['project_id']?>" tb:date="<?php echo $monday; ?>">
